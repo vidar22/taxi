@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'font-awesome'; /*a name to be used later*/
+    src: url('../fonts/font_awesome/fonts/fontawesome-webfont.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'marvel-regular'; /*a name to be used later*/
+    src: url('../fonts/marvel/Marvel-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'marvel-italic'; /*a name to be used later*/
+    src: url('../fonts/marvel/Marvel-Italic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'marvel-bold'; /*a name to be used later*/
+    src: url('../fonts/marvel/Marvel-Bold.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'marvel-bolditalic'; /*a name to be used later*/
+    src: url('../fonts/marvel/Marvel-BoldItalic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'open-sans'; /*a name to be used later*/
+    src: url('../fonts/open_sans/OpenSans-VariableFont_wdth,wght.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'roboto-condensed-regular'; /*a name to be used later*/
+    src: url('../fonts/roboto_condensed/RobotoCondensed-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'roboto-condensed-italic'; /*a name to be used later*/
+    src: url('../fonts/roboto_condensed/RobotoCondensed-Italic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'roboto-condensed-light'; /*a name to be used later*/
+    src: url('../fonts/roboto_condensed/RobotoCondensed-Light.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'roboto-condensed-light-italic'; /*a name to be used later*/
+    src: url('../fonts/roboto_condensed/RobotoCondensed-LightItalic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'roboto-condensed-bold'; /*a name to be used later*/
+    src: url('../fonts/roboto_condensed/RobotoCondensed-Bold.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'roboto-condensed-bold-italic'; /*a name to be used later*/
+    src: url('../fonts/roboto_condensed/RobotoCondensed-BoldItalic.ttf'); /*URL to font*/
+}
