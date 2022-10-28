@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'font-awesome'; /*a name to be used later*/
-    src: url('../fonts/font_awesome/fonts/fontawesome-webfont.ttf'); /*URL to font*/
-}
-
-@font-face {
     font-family: 'marvel-regular'; /*a name to be used later*/
     src: url('../fonts/marvel/Marvel-Regular.ttf'); /*URL to font*/
 }
