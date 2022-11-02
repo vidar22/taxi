@@ -1,0 +1,13 @@
+html body {
+	font-family:'roboto-condensed-regular';
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.innner-content{
+	margin-left: 375px;
+	margin-right: 375px;
+}
+.yellow-text{
+	color: #fdc903;
+}

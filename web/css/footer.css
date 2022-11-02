@@ -1,0 +1,76 @@
+footer{
+	background-color: #4a4a4a;
+	width: 100%;
+	height: 220px;
+}
+.footer-content{
+	display: flex;
+	justify-content: space-evenly;
+	width: auto;
+}
+.footer-content div{
+	width: 390px;
+	height: 100px;
+	margin-top: 50px;
+
+}
+.tourtaxi{
+	font-size: 30px;
+	line-height: 18px;
+	color: #e2e2e2;
+	font-weight: 400;
+	font-family: roboto-condensed;
+}
+.privacy-policy{
+	margin: 0px;
+	font-size: 15px;
+	line-height: 18px;
+	color: #e2e2e2;
+	font-weight: 400;
+	font-family: roboto-condensed;
+}
+.templatemonster{
+	margin: 0px;
+	font-size: 14px;
+	color: #aaaaaa;
+	font-weight: 400;
+	font-family: open-sans;
+}
+.social-network{
+	display: flex;
+	justify-content: start;
+}
+.social-network div{
+	width: 58px;
+	height: 58px;
+	border-radius: 50px;
+	background-color: #fdc903;
+}
+.social-network a{
+	color: #ffffff;
+	font-size: 24px;
+	width: 25px;
+	height: 25px;
+}
+.twitter{
+	margin-left: 100px;
+}
+.fa-twitter, .fa-facebook, .fa-google-plus{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 18px;
+	margin-bottom: 0px;
+}
+.call-us{
+	font-size: 30px;
+	line-height: 36px;
+	color: #e2e2e2;
+	font-weight: 400;
+	font-family: roboto-condensed;
+}
+
+
+
+.bottom-up{
+
+}

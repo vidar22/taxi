@@ -3,19 +3,156 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Tour Taxi</title>
-		<meta http-equiv="Content type" content="text/html;charset=UTF-8" />
+  		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="css/carousel.css">	
+		<link rel="stylesheet" href="css/bootstrap.css">	
 		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
+		<script defer src="js/jquery-3.6.1.min.js"></script>
+		<script defer src="js/bootstrap.js"></script>
+  		
 		</head>
 	<body>
-		
+<!--HEADER SECTION-->
+			<header>
+				<!--menu-->
+				<div class="innner-content">
+					<span class="menu">
+							<div class="disposition">
+							<a href="#">Home</a>
+							</div>
+							<a href="about.html">About</a>
+							<a href="cars.html">Cars</a>
+							<a href="services.html">Services</a>
+							<a href="contacts.html">Contacts</a>
+					</span>
+				</div>
+			</header>
+<!--EMBLEM SECTION-->
+			<section>
+				<div class="emblem">
+					<p class="name-company">YOUR <span class="yellow-text">T</span>AXI</p>
+					<p class="taxi-awecome"><i class="fa fa-car" aria-hidden="true"></i></p>
+				</div>
+			</section>
+<!--IMAGE TAXI-->
+			<section>
+				<div id="carousel" class="carousel slide" data-ride="carousel" style="max-width: auto; margin: 0 0;">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel" data-slide-to="1"></li>
+				    <li data-target="#carousel" data-slide-to="2"></li>
+				  </ol>
 
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <div class="item-responsive item-16by9">
+				        <div class="content" style="background: url(img/home/car1.png);"></div>
+				      </div>
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				    <div class="item">
+				      <div class="item-responsive item-16by9">
+				        <div class="content" style="background: url(img/home/car2.png);"></div>
+				      </div>
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				    <div class="item">
+				      <div class="item-responsive item-16by9">
+				        <div class="content" style="background: url(img/home/car3.png);"></div>
+				      </div>
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				  </div>
 
-		</section>
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+				    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+				   <i class="fa fa-chevron-right" aria-hidden="true"></i>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</section>
+<!--BENEFITS SECTION-->
+			<section>
+				<div class="innner-content">
+					<div class="benefits">
+						<div class="fast">
+							<p class="benefits-awesome"><i class="fa fa-clock-o" aria-hidden="true"></i></p>
+							
+							<p class="benefits-name">Fast&<br><span class="yellow-text">Safe</span></p>
+							
+							<p class="benefits-text">Dorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis <a href="#"><i class="fa fa-share-square" aria-hidden="true"></i></a></p>
+						</div>
+						<div class="best">
+							<p class="benefits-awesome"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></p>
+							
+							<p class="benefits-name">Best<br><span class="yellow-text">Prices</span></p>
+							
+							<p class="benefits-text">Dorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis <a href="#"><i class="fa fa-share-square" aria-hidden="true"></i></a></p>
+						</div>
+						<div class="package">
+							<p class="benefits-awesome"><i class="fa fa-suitcase" aria-hidden="true"></i></p>
+							
+							<p class="benefits-name">Package<br><span class="yellow-text">Delivery</span></p>
+							<p class="benefits-text">Dorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis <a href="#"><i class="fa fa-share-square" aria-hidden="true"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+<!--COMPANY NUMBER-->
+			<section></section>
+<!--ORDER FORM-->
+			<section></section>
+<!--FOOTER SECTION-->
+				<footer>
+					<div class="innner-content">
+						<!--footer content-->
+						<div class="footer-content">
+								<!--privacy policy-->
+								<div>
+									<span class="tourtaxi">Tour<span class="yellow-text">T</span>axi</span>
+									<span class="privacy-policy">&copy 2014 | Privacy Policy</span>
+									<p class="templatemonster">Website designed by TemplateMonster.com</p>
+								</div>
+								<!--social network-->
+								<div class="social-network">
+									<div class="twitter">
+										<a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									</div>
+									<div class="facebook">
+										<a href="https://facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									</div>
+									<div class="google+">
+										<a href="https://www.google.ru/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+									</div>
+								</div>
+								<!--number phone-->
+								<div class="call-us">
+									<span>Call Us: + 1800 559 6580</span>
+								</div>
+						</div>
+					</div>
+					<div class="bottom-up"></div>
+				</footer>
 	</body>
 </html>
+
+ <!-- 	
+      	<li><img class="taxi1" src="img/home/car1.png" alt="#"></li>
+      	<li><img class="taxi2" src="img/home/car2.png" alt="#"></li>
+      	<li><img class="taxi3" src="img/home/car3.png" alt="#"></li>
