@@ -1,10 +1,9 @@
 <!DOCTYPE HTM>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
 		<title>Tour Taxi</title>
   		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, , user-scalable=yes initial-scale=1">
 
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/fonts.css">
@@ -19,7 +18,9 @@
   		
 		</head>
 	<body>
+
 <form action="#" method="post" enctype="multipart/form-data"></form>
+
 <!--HEADER SECTION-->
 		<header>
 			<!--menu-->
@@ -135,22 +136,22 @@
 								<!--name form-->
 								<div class="client-name">
 									<div>
-										<p><input placeholder="Name:"  type="user"/></p>
-										<p><input placeholder="From:"  type="text"/></p>
+										<p><input required placeholder="Name: "  type="user" name="name" /></p>
+										<p><input required placeholder="From:"  type="text" name="from" /></p>
 									</div>
 									<div>
-										<p><input placeholder="Email:"  type="email"/></p>
-										<p><input placeholder="To:"  type="text"/></p>
+										<p><input required placeholder="Email:"  type="email" name="email" /></p>
+										<p><input required placeholder="To:"  type="text" name="to" /></p>
 									</div>
 								</div>
 								<!--date form-->
 								<div>
 									<p>Time &ensp;&ensp;
-										<input class="time-form" placeholder="" type="text" />
+										<input required class="time-form" type="text" name="time" />
 									</p>
 									<p>Date &ensp;&ensp;
 										<span><i class="fa fa-calendar" aria-hidden="true"></i></span>
-										<input class="date-form" placeholder="" type="text" />
+										<input required class="date-form" type="text" name="date" />
 									</p>
 								</div>
 								<!--radio button-->
@@ -179,8 +180,8 @@
 									</p>
 									<p> &ensp;&ensp;&ensp;&ensp;&ensp; Children 
 										<select name="children" id="#">
-											<option value="1">1</option>
-											<option value="2">2</option>
+											<option value="1">0</option>
+											<option value="2">1</option>
 										</select>
 									</p>
 								</div>
@@ -191,11 +192,13 @@
 							</div>
 							<!--button order-->
 							<div class="order-submit">
-								<button type="submit">Submit</button>
+								<button type="submit" name="button">Submit</button>
 							</div>
 						</div>
 						<div class="car-class">
-							
+							<div><img src="img/home/economypng.png" alt="#"></div>
+							<div><img src="img/home/standart.png" alt="#"></div>
+							<div><img src="img/home/lux.png" alt="#"></div>
 						</div>
 					</div>
 				</div>
