@@ -1,36 +1,3 @@
-/*<!--EMBLEM SECTION-->*/
-.emblem{
-  width: 100%;
-  height: 200px;
-  background-color: #ffffff;
-}
-.name-company{
-  text-align: center;
-  padding-top: 55px;
-  margin-bottom: 0px;
-  font-size: 60px;
-  line-height: 20px;
-  color: #2a2929;
-  font-weight: 400;
-  font-family: "roboto-condensed-regular";
-}
-.taxi-awecome{
-  width: 58px;
-  height: 58px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
-  text-align: center;
-  color: #ffffff;
-  font-size: 30px;
-  background-color: #696969;
-  border-radius: 50px;
-}
-.fa-car{
-  margin-top: 15px;
-}
-
 /*<!--BENEFITS SECTION-->*/
 .benefits{
   display: flex;

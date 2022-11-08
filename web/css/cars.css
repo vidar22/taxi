@@ -1,0 +1,14 @@
+.image-taxi-park{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 55px;
+	width: 100%;
+	height: 800px;
+}
+.image-title h3{
+	margin-bottom: 50px;
+}
+.image-taxi-park img{
+	display: block;
+	margin-bottom: 30px;
+}

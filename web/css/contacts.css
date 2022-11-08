@@ -1,0 +1,85 @@
+.map-title p{
+	font-size: 36px;
+	line-height: 20px;
+	color: #313030;
+	font-weight: 400;
+	font-family: "roboto-condensed-regular";
+}
+.map{
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.contact{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 80px;
+}
+.contact-info{
+	width: 470px;
+	height: 370px;
+}
+.contact-title{
+	font-size: 36px;
+	line-height: 20px;
+	color: #313030;
+	font-weight: 400;
+	font-family: "roboto-condensed-regular";
+}
+.contact-info-text{
+	width: 468px;
+	height: 300px;
+	margin-top: 30px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #4a4a4a;
+	font-weight: 400;
+	font-family: "open-sans";
+}
+.contact-info-text p{
+	margin-top: 15px;
+}
+.big-text{
+	font-size: 20px;
+}
+.contact-form{
+	width: 570px;
+	height: 400px;
+}
+.contact-form input{
+	background-color: #fefefe;
+ 	pacity: 0.600;
+	border: 1px solid #e7e5e5;
+}
+.input-client{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.input-message textarea{
+	width: 100%;
+	height: 220px;
+	resize: none;
+	background-color: #fefefe;
+ 	pacity: 0.600;
+	border: 1px solid #e7e5e5;
+}
+.button-form{
+	display: flex;
+	justify-content: right;
+}
+.button-form button{
+	width: 85px;
+	height: 40px;
+	margin-top: 28px;
+	padding: 0px;
+	background: #fdc903;
+	color: #ffffff;
+	border: none;
+}
+.button-submit{
+	margin-right: 10px;
+}
