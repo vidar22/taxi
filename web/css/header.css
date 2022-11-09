@@ -25,9 +25,13 @@ header{
 
 }
 .disposition{
-
-	width: 80px;
-	height: 40px;
-	background-color: #fdc903;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 	text-align: center;
+	width: 120px;
+	height: 40px;
+	margin-top: 10px;
+	background: #fdc903;
 }

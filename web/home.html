@@ -19,7 +19,7 @@
 		</head>
 	<body>
 
-<form action="#" method="post" enctype="multipart/form-data"></form>
+
 
 <!--HEADER SECTION-->
 		<header>
@@ -128,78 +128,81 @@
 				<div class="innner-content">
 					<div class="order-form">
 						<div class="order">
-							<div class="order-title">
-								<p>Booking Form</p>
-							</div>
-							<!-- order form-->
-							<div>
-								<!--name form-->
-								<div class="client-name">
-									<div>
-										<p><input required placeholder="Name:"  type="user" name="name" /></p>
-										<p><input required placeholder="From:"  type="text" name="from" /></p>
-									</div>
-									<div>
-										<p><input required placeholder="Email:"  type="email" name="email" /></p>
-										<p><input required placeholder="To:"  type="text" name="to" /></p>
-									</div>
+							<form action="#" method="post" enctype="multipart/form-data">
+								<div class="order-title">
+									<p>Booking Form</p>
 								</div>
-								<!--date form-->
+								<!-- order form-->
 								<div>
-									<p>Time &ensp;&ensp;
-										<input required class="time-form" type="text" name="time" />
-									</p>
-									<p>Date &ensp;&ensp;
-										<span><i class="fa fa-calendar" aria-hidden="true"></i></span>
-										<input required class="date-form" type="text" name="date" />
-									</p>
-								</div>
-								<!--radio button-->
-								<div>
-									<p>Comfort</p>
-									<div class="order-radio-button-position">
-										<p>
-											<input checked type="radio" name="car" value="Cheap">&ensp; Cheap
+									<!--name form-->
+									<div class="client-name">
+										<div>
+											<p><input required placeholder="Name:"  type="user" name="name" /></p>
+											<p><input required placeholder="From:"  type="text" name="from" /></p>
+										</div>
+										<div>
+											<p><input required placeholder="Email:"  type="email" name="email" /></p>
+											<p><input required placeholder="To:"  type="text" name="to" /></p>
+										</div>
+									</div>
+									<!--date form-->
+									<div>
+										<p>Time &ensp;&ensp;
+											<input required class="time-form" type="text" name="time" />
 										</p>
-										<p>
-											<input type="radio" name="car" value="Comfort"> &ensp; Comfort
-										</p>
-										<p>
-											<input type="radio" name="car" value="Lux"> &ensp; Lux
+										<p>Date &ensp;&ensp;
+											<span><i class="fa fa-calendar" aria-hidden="true"></i></span>
+											<input required class="date-form" type="text" name="date" />
 										</p>
 									</div>
+									<!--radio button-->
+									<div>
+										<p>Comfort</p>
+										<div class="order-radio-button-position">
+											<p>
+												<input checked type="radio" name="car" value="Cheap">&ensp; Cheap
+											</p>
+											<p>
+												<input type="radio" name="car" value="Comfort"> &ensp; Comfort
+											</p>
+											<p>
+												<input type="radio" name="car" value="Lux"> &ensp; Lux
+											</p>
+										</div>
+									</div>
+									<!--number of passengers-->
+									<div class="order-passengers">
+										<p>&ensp; Adults &ensp; 
+											<select name="adults" id="#">
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+											</select>
+										</p>
+										<p> &ensp;&ensp;&ensp;&ensp;&ensp; Children 
+											<select name="children" id="#">
+												<option value="1">0</option>
+												<option value="2">1</option>
+											</select>
+										</p>
+									</div>
+									<!--comment-->
+									<div class="order-comment">
+										<textarea placeholder="Message:" name="comment"></textarea>
+									</div>
 								</div>
-								<!--number of passengers-->
-								<div class="order-passengers">
-									<p>&ensp; Adults &ensp; 
-										<select name="adults" id="#">
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-										</select>
-									</p>
-									<p> &ensp;&ensp;&ensp;&ensp;&ensp; Children 
-										<select name="children" id="#">
-											<option value="1">0</option>
-											<option value="2">1</option>
-										</select>
-									</p>
+								<!--button order-->
+								<div class="order-submit">
+									<button type="submit" name="button">Submit</button>
 								</div>
-								<!--comment-->
-								<div class="order-comment">
-									<textarea placeholder="Message:" name="comment"></textarea>
-								</div>
-							</div>
-							<!--button order-->
-							<div class="order-submit">
-								<button type="submit" name="button">Submit</button>
-							</div>
+							</form>
 						</div>
 						<div class="car-class">
 							<div><img src="img/home/economypng.png" alt="#"></div>
 							<div><img src="img/home/standart.png" alt="#"></div>
 							<div><img src="img/home/lux.png" alt="#"></div>
 						</div>
+
 					</div>
 				</div>
 			</section>

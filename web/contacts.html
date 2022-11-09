@@ -17,8 +17,21 @@
   		
 		</head>
 	<body>
-
-
+<!--HEADER SECTION-->
+		<header>
+			<!--menu-->
+			<div class="innner-content">
+				<span class="menu">				
+					<a href="home.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="cars.html">Cars</a>
+					<a href="services.html">Services</a>
+					<div class="disposition">
+						<a href="contacts.html">Contacts</a>
+					</div>
+				</span>
+			</div>
+		</header>
 <!--EMBLEM SECTION-->
 		<section>
 			<div class="emblem">
@@ -66,19 +79,21 @@
 					<div class="contact-title">
 						<p>Contact Form</p>
 					</div>
-					<div class="input-client">
-						<p><input required placeholder="Name:"  type="user" name="name" /></p>
-						<p><input required placeholder="E-mail:"  type="email" name="email" /></p>
-						<p><input required placeholder="Phone:"  type="number" name="phone" /></p>
-					</div>
-					<div class="input-message">
-						<textarea placeholder="Message:" name="comment"></textarea>
-					</div>
-					<!--button-block-->
-					<div class="button-form">
-						<button class="button-submit" type="submit" name="button">Send</button>
-						<button type="reset" name="button">Clear</button>
-					</div>
+					<form action="#" method="post" enctype="multipart/form-data">
+						<div class="input-client">
+							<p><input required placeholder="Name:"  type="user" name="name" /></p>
+							<p><input required placeholder="E-mail:"  type="email" name="email" /></p>
+							<p><input required placeholder="Phone:"  type="number" name="phone" /></p>
+						</div>
+						<div class="input-message">
+							<textarea placeholder="Message:" name="comment"></textarea>
+						</div>
+						<!--button-block-->
+						<div class="button-form">
+							<button class="button-submit" type="submit" name="button">Send</button>
+							<button type="reset" name="button">Clear</button>
+						</div>
+					</form>	
 				</div>
 			</div>
 		</div>
